@@ -1,0 +1,1670 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            {
+                "name": "zipcode",
+                "pattern": "[0-9]{5}"
+            },
+            {
+                "name": "greet",
+                "pattern": "hey[^\\s]*"
+            }
+        ],
+        "entity_synonyms": [
+            {
+                "value": "chinese",
+                "synonyms": [
+                    "Chinese",
+                    "Chines",
+                    "chines"
+                ]
+            },
+            {
+                "value": "vegetarian",
+                "synonyms": [
+                    "veggie",
+                    "vegg"
+                ]
+            }
+        ],
+        "common_examples": [
+            {
+                "text": "I am looking for a sales and marketing chatbot.",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 19,
+                        "end": 47,
+                        "value": "sales and marketing chatbot.",
+                        "entity": "chatbot"
+                    }
+                ]
+            },
+            {
+                "text": "How you doin",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Do you provide service in agriculture domain.",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 45,
+                        "value": "service in agriculture domain.",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "Awesome",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "I have a small food delivery business in my region, can you help me with that",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 38,
+                        "value": "food delivery business ",
+                        "entity": "business"
+                    }
+                ]
+            },
+            {
+                "text": "nop",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "how can you solve my problem?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "the sky is clear",
+                "intent": "give_info",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 16,
+                        "value": "sky is clear",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "Amazing",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "appreciate it!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "yep",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "Thanks",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "What is up",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "you are on point",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "well done",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "I'm glad we met!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "How have you been",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "How's your day",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "yeh",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "can you solve my problem?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "exactly ",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "Talk to you later",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "You are perfect",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Do you offer your serices to medium sized enterprises?",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 54,
+                        "value": "serices to medium sized enterprises?",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "tell me your capabilities",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 25,
+                        "value": "capabilities",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "good job",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "what are you capable of\u00a0",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 24,
+                        "value": "capable of\u00a0",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "take care",
+                "intent": "express_care",
+                "entities": []
+            },
+            {
+                "text": "No, i want to check few things before that.",
+                "intent": "give_info",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 24,
+                        "value": "check few ",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "How are you doing",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Do you provide assistance in sales marketing?",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 29,
+                        "value": "assistance in ",
+                        "entity": "assistance"
+                    }
+                ]
+            },
+            {
+                "text": "Your contact details?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 20,
+                        "value": "contact details",
+                        "entity": "contact"
+                    }
+                ]
+            },
+            {
+                "text": "Cool!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "have a good day",
+                "intent": "express_care",
+                "entities": []
+            },
+            {
+                "text": "no i am not",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "How is everything going on?",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "what can you do to help me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Had Saarthi ever coordinated with mid sized companies? ",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 54,
+                        "value": "Saarthi ever coordinated with mid sized companies?",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "No, I changed my mind.",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "nope",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "nay",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "nope",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "You're so great.",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "its good to see how easily you handle things",
+                "intent": "appreciate",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 44,
+                        "value": "how easily you handle things",
+                        "entity": "quality"
+                    }
+                ]
+            },
+            {
+                "text": "your work is to the point",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "what are the areas in which you provide service",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 47,
+                        "value": "areas in which you provide service",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "Which size of enterprises do you serve usually?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 26,
+                        "value": "enterprises ",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "spot on",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "sure",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "Nope",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "could you help me assist in sales marketing?",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 43,
+                        "value": "assist in sales marketing",
+                        "entity": "assistance"
+                    }
+                ]
+            },
+            {
+                "text": "What is your purpose?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 20,
+                        "value": "purpose",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "bye bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "See you soon",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "no nothing else",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "My company works for ecommerce. Do you provide services in this domain?",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 21,
+                        "end": 30,
+                        "value": "ecommerce",
+                        "entity": "domain"
+                    }
+                ]
+            },
+            {
+                "text": "You got that right mate.",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "What's your skill?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "I am from IT do you have experience in this domain",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 13,
+                        "value": "IT ",
+                        "entity": "domain"
+                    }
+                ]
+            },
+            {
+                "text": "indeed",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "perfect",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "thanks a ton",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "nono",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "How can you be of my help?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "for what purpose\u00a0you are made",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Dude you are smart!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "tell me everything that you can do",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 34,
+                        "value": "everything that you can do",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "so tell me things which you can do",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 18,
+                        "value": "things ",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "see you",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Goodbye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Whats up",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "yip",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "Hello how you doing",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "good bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Can i get a list of all the domains that you are involved in",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 36,
+                        "value": "list of all the domains ",
+                        "entity": "domain_list"
+                    }
+                ]
+            },
+            {
+                "text": "What domain is your company currently working for?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "domain ",
+                        "entity": "info"
+                    }
+                ]
+            },
+            {
+                "text": "Do you make bots for telecommunication domain?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 21,
+                        "end": 39,
+                        "value": "telecommunication ",
+                        "entity": "domain"
+                    }
+                ]
+            },
+            {
+                "text": "Please let me know what can you do for me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "How are you",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "I have a small scale business need your help to grow it further",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 30,
+                        "value": "small scale business ",
+                        "entity": "business"
+                    }
+                ]
+            },
+            {
+                "text": "no chance",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "You are my best friend",
+                "intent": "give_info",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 22,
+                        "value": "friend",
+                        "entity": "relation"
+                    }
+                ]
+            },
+            {
+                "text": "sure",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "Hey whats going on ",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "you're right",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "please provide me a brief information about all your domains",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "I need to quickly connect over phone can you share number",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 31,
+                        "end": 37,
+                        "value": "phone ",
+                        "entity": "communication_device"
+                    }
+                ]
+            },
+            {
+                "text": "I'd say so",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "How can you help me in User onboarding?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Is there any chance of a small sized buisiness being served by your company?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 25,
+                        "end": 47,
+                        "value": "small sized buisiness ",
+                        "entity": "asset"
+                    }
+                ]
+            },
+            {
+                "text": "great work",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "uh huh",
+                "intent": "express_reflection",
+                "entities": []
+            },
+            {
+                "text": "What's happening",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "How was your day",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Superb",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "How can you help me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "How can I reach out over e-mail",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 25,
+                        "end": 31,
+                        "value": "e-mail",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "What can you do for me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Hey how are you ",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Nah",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "I am a startup having 20 employees. Does your company collaborate in such cases?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "alright",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "How can you help me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "I need to know how you can help me out",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "I appreciate that",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Can i know the size of businesses you guys support ",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Hello my dear friend!",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "totes",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "um yeh",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "could you help me assist in user onboarding?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "How can you solve problem?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "let's go",
+                "intent": "ask_to_come",
+                "entities": []
+            },
+            {
+                "text": "see you round",
+                "intent": "ask_to_come",
+                "entities": []
+            },
+            {
+                "text": "Hello how are you",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "can you help me?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "no one like you !",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "tell me what can you do?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Give your mail id details?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 18,
+                        "value": "mail id ",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "Can you provide me help in Lead generation?",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 27,
+                        "end": 42,
+                        "value": "Lead generation",
+                        "entity": "process"
+                    }
+                ]
+            },
+            {
+                "text": "What kind of enterprizes do you have worked with till now?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 25,
+                        "value": "enterprizes ",
+                        "entity": "business"
+                    }
+                ]
+            },
+            {
+                "text": "Adios",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "I would like to know more about your capabilities",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "I'd say yes",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "Could you help me assist in customer support?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "I'm happy with that",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "do you provide services for sales marketing?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "thanks a lot",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "Do you work for only high scaled businesses?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "correct",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "thnx",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "How well do you cater to large scaled businesses?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "What are your capabilities?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "au revoir",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Do you provide service in healthcare",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 36,
+                        "value": "healthcare",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "Bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Let me know if you guys work for banking.",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 33,
+                        "end": 41,
+                        "value": "banking.",
+                        "entity": "sector"
+                    }
+                ]
+            },
+            {
+                "text": "What are the things that you can do for me",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "thank you good bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "What can you do for me?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "My company is in agricultural product manufacturing. do you have expertise in this?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 51,
+                        "value": "agricultural product manufacturing",
+                        "entity": "process"
+                    }
+                ]
+            },
+            {
+                "text": "if you serve medium scale businesses then we can talk further",
+                "intent": "give_deal",
+                "entities": []
+            },
+            {
+                "text": "Can you share with me contact number",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 22,
+                        "end": 36,
+                        "value": "contact number",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "yes it is clear",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "you are so Awesome !",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "thanks very much",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "Hello Mate!",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "could you help me assist in lead generation?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "You are very cool!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "naah",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "what are your superpowers?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "thanks",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "Asta la vista",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Gotta go",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "How can I speak with the team",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "laters",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "No chance",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "good job",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Hello my friend",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "what can you do?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "i am registered yes",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "no way",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "What all can you do?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Show me contact number.",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 22,
+                        "value": "contact number",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "Which all things are you programmed for",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "how are you recently !",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "what other things you can do",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "yes",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "what all kind of enterprise functions you guys provide?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 38,
+                        "value": "enterprise functions ",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "not a chance",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "thats great",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "tell me your email address",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "value": "email address",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "Good Morning!",
+                "intent": "wish_someone",
+                "entities": []
+            },
+            {
+                "text": "Bubye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Do you provide assistance in Lead generation?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Tata",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "How is your day going?",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "How can I meet with the team.",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "you are always right",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "How are you useful to me",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "thank you very much",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "would love to know your capabilities",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "I have a requirement and want contact detail",
+                "intent": "help",
+                "entities": [
+                    {
+                        "start": 30,
+                        "end": 44,
+                        "value": "contact detail",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "brief me about your abilities",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 29,
+                        "value": "abilities",
+                        "entity": "quality"
+                    }
+                ]
+            },
+            {
+                "text": "Can you provide me help in Sales marketing?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "You can solve my problem!",
+                "intent": "give_info",
+                "entities": []
+            },
+            {
+                "text": "Thankyou",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "You are so nice.",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "What are the things you can help me with",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "You are so fast in resolving my queries... I am amazed!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "You are awesome",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "alright",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "tysm",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "I'm a small shop owner.. can you help me",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Thank You",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "yes i am registered",
+                "intent": "give_info",
+                "entities": []
+            },
+            {
+                "text": "You are supernatural!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "thanks for help",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "Its so convenient talking to you.",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Show me contact details",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 16,
+                        "value": "contact ",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "Not at all",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "forget it",
+                "intent": "end_topic",
+                "entities": []
+            },
+            {
+                "text": "What else can you do?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "any specific domain that is the motto of your company.",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "hi friend",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "not a chance",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "so long",
+                "intent": "give_info",
+                "entities": []
+            },
+            {
+                "text": "i am not registered",
+                "intent": "give_info",
+                "entities": []
+            },
+            {
+                "text": "Do you pick companies based on their scales?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Hey friend",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "how can you serve me?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Do you provide assistance in customer support?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "What are your capabilities?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Which scaled enterprizes do you provide your services?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 6,
+                        "end": 25,
+                        "value": "scaled enterprizes ",
+                        "entity": "enterprise"
+                    }
+                ]
+            },
+            {
+                "text": "how are things going",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Tell me things you are programmed to do?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "Later Alligator",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Is there any specific domain you are active in?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "forget it",
+                "intent": "end_topic",
+                "entities": []
+            },
+            {
+                "text": "Do you work om sales marketing?",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 21,
+                        "value": "sales ",
+                        "entity": "business"
+                    }
+                ]
+            },
+            {
+                "text": "What is going on, go on!",
+                "intent": "ask_to_continue",
+                "entities": []
+            },
+            {
+                "text": "tell me averything that you can do",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "ok",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "You are right",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "How are you today?",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "happy yes",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "no chance",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "Outstanding",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Can I talk to someone over a call",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Please give me your contact details.",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 35,
+                        "value": "contact details",
+                        "entity": "communication_medium"
+                    }
+                ]
+            },
+            {
+                "text": "Fantastic",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Do you serve small scale businesses?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "ok bye",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Can i get in contact with the customer support ",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "the sky is not clear",
+                "intent": "give_info",
+                "entities": []
+            },
+            {
+                "text": "wassup",
+                "intent": "say_hello",
+                "entities": []
+            },
+            {
+                "text": "Do you work in user onboarding?",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "see ya",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "cool",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "How's your day going",
+                "intent": "ask_whereabout",
+                "entities": []
+            },
+            {
+                "text": "Good Evening!",
+                "intent": "wish_someone",
+                "entities": []
+            },
+            {
+                "text": "You're so thoughtful.",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "that's great.",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "yep",
+                "intent": "say_yes",
+                "entities": []
+            },
+            {
+                "text": "See you around",
+                "intent": "end_topic",
+                "entities": []
+            },
+            {
+                "text": "You are awesome!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "Not possible",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "nope",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "How is the josh",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "tell me about your capabilties",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "See you",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Amazing!",
+                "intent": "appreciate",
+                "entities": []
+            },
+            {
+                "text": "ty",
+                "intent": "gratefulness",
+                "entities": []
+            },
+            {
+                "text": "no",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "see you",
+                "intent": "end_topic",
+                "entities": []
+            },
+            {
+                "text": "I'm in",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "Do you provide service in hospitality ",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 26,
+                        "end": 38,
+                        "value": "hospitality ",
+                        "entity": "hospatility"
+                    }
+                ]
+            },
+            {
+                "text": "alrighty then",
+                "intent": "agree",
+                "entities": []
+            },
+            {
+                "text": "Got to go",
+                "intent": "say_bye",
+                "entities": []
+            },
+            {
+                "text": "Please tell me how you can help me",
+                "intent": "ask_info",
+                "entities": []
+            },
+            {
+                "text": "I want to automate my customer service, do you provide such services ",
+                "intent": "ask_info",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 31,
+                        "value": "automate my customer ",
+                        "entity": "service"
+                    }
+                ]
+            },
+            {
+                "text": "no way",
+                "intent": "say_no",
+                "entities": []
+            },
+            {
+                "text": "Bravo",
+                "intent": "agree",
+                "entities": []
+            }
+        ]
+    }
+}
